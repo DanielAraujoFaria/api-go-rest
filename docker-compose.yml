@@ -13,7 +13,7 @@ services:
   pgadmin-compose:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "hihellohiyupi@gmail.com"
+      PGADMIN_DEFAULT_EMAIL: "daniel@alura.com"
       PGADMIN_DEFAULT_PASSWORD: "123456"
     ports:
       - "54321:80"
